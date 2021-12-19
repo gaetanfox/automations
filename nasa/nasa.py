@@ -50,6 +50,4 @@ if __name__ == "__main__":
             + filename
             + "\"'"
         )
-        # use absolute path to the image, and not a path that begins with a user path (~/Downloads/image.jpg)!
-
     os.system(cmd)
